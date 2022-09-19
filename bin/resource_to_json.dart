@@ -12,9 +12,6 @@ void main(List<String> arguments) {
 }
 
 const stringIOS = """
-/* Persistent score message */
-"**Score:** %lld" = "**Score:** ^[%lld Points](inflect: true)";
-
 /* Answer for question about Catalan */
 "Catalan.Answer" = "Catalan";
 
@@ -50,13 +47,6 @@ const stringIOS = """
 
 /* No comment provided by engineer. */
 "Next" = "Next";
-
-/* App welcome title */
-"Welcome to _Country Quiz Time_" = "Welcome to _Country Quiz Time_";
-
-/* No comment provided by engineer. */
-"You answered %@" = "You answered %@";
-
 """;
 const xmlString = """
 <resources xmlns:tools="http://schemas.android.com/tools">
